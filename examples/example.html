@@ -1,0 +1,16 @@
+<html>
+test
+<script src="../lib/cx.js"></script>
+<script>
+    var cx = new CX(CX.production);
+    cx.onGetProducts = function (event) {
+        console.log(event.sequenceNumber);
+        console.log(event.products);
+    }
+
+    cx.onWebAuthenticateUser = function (event) {
+        console.log(event.sequenceNumber);
+        console.log(event);
+    }
+</script>
+</html>
