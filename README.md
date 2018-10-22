@@ -44,13 +44,13 @@ cx.getProducts();
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |onGetProducts           |Returns a list of available **products** from the API.                                                                                                                       |
 |onGetInstruments        |Returns a list of available **instruments** from the API.                                                                                                                    |
-|onWebAuthenticateUer    |Returns if session is **authenticated**, **SessionToken**, **UserId**, and **ErrorMessage**.                                                                                 |
+|onWebAuthenticateUer    |Returns if session is **authenticated**, **sessionToken**, **userId**, and **errorMessage**.                                                                                 |
 |onGetUserAccounts       |Returns a list of **accountIds** for the current user.                                                                                                                       |
 |onGetAccountTransactions|Retruns a list of recent **transactions** from your account.                                                                                                                 |
 |onGetAccountPositions   |Returns a list of account **positions**(Balances) on a specific account.                                                                                                     |
 |onGetAccountTrades      |Retruns a list of account **trades** history for a specific account.                                                                                                         |
-|onSendOrder             |Retruns **Status**, **errorMessage**, and **orderId**.                                                                                                                       |
-|onCancelOrder           |Returns **Status**, **errorMessage**, **errorCode**, and **detail**.                                                                                                         |
+|onSendOrder             |Retruns **status**, **errorMessage**, and **orderId**.                                                                                                                       |
+|onCancelOrder           |Returns **status**, **errorMessage**, **errorCode**, and **detail**.                                                                                                         |
 |onGetOrderStatus        |Reutrns the **orderStatus**(current operating status of an order) submitted to Order Management System.                                                                      |
 |onGetOrderFee           |Returns the estimate of the **orderFee** and **productId** for a specific order and order type.                                                                              |
 |onGetOrderHistory       |Returns the list of of the last 100 **orders** placed on your account.                                                                                                       |
