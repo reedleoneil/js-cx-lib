@@ -1,3 +1,6 @@
+# NOTICE: This repository is depricated and no longer maintained.
+There have been updates to the API specifications which were not implemented in this project and not recommended for usage.
+
 # js-cx-lib
 Javascript Coins Pro API Library
 
